@@ -1,2 +1,2 @@
-- [Github repository](https://ditt-repo-här)
-- [Deployat projekt](https://ditt-projekt-här)
+- [Github repository](https://https://github.com/Micke1980/The-flag-app)
+- [Deployat projekt](https://the-flag-app.vercel.app)
