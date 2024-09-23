@@ -17,7 +17,7 @@ export default function SkeletonCard({ i }) {
 							<Skeleton
 								variant="text"
 								width={60}
-								sx={{ display: 'inline-block', fontSize: '0.875rem', marginLeft: '5px' }}
+								sx={{ display: 'inline-block', fontSize: '1rem', marginLeft: '5px' }}
 							/>
 						</Typography>
 						<Typography variant="body2" color="text.secondary">

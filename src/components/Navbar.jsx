@@ -21,7 +21,7 @@ export default function Navbar() {
 			}}
 		>
 			<Container style={colorMode.noContainer ? unStyleContainer : {}}>
-				<Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+				<Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '50px' }}>
 					<Typography variant="h6" component="div" color={'primary'}>
 						The Flag App
 					</Typography>
