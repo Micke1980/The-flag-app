@@ -46,7 +46,7 @@ export default function CountryDetails() {
 										<Skeleton
 											variant="text"
 											width={60}
-											sx={{ display: 'inline-block', fontSize: '0.875rem', marginLeft: '5px' }}
+											sx={{ display: 'inline-block', fontSize: '1.5rem', marginLeft: '5px' }}
 										/>
 									) : (
 										country.population
@@ -58,7 +58,7 @@ export default function CountryDetails() {
 										<Skeleton
 											variant="text"
 											width={60}
-											sx={{ display: 'inline-block', fontSize: '0.875rem', marginLeft: '5px' }}
+											sx={{ display: 'inline-block', fontSize: '1rem', marginLeft: '5px' }}
 										/>
 									) : (
 										country.region
@@ -70,7 +70,7 @@ export default function CountryDetails() {
 										<Skeleton
 											variant="text"
 											width={60}
-											sx={{ display: 'inline-block', fontSize: '0.875rem', marginLeft: '5px' }}
+											sx={{ display: 'inline-block', fontSize: '1rem', marginLeft: '5px' }}
 										/>
 									) : (
 										country.capital
@@ -82,7 +82,7 @@ export default function CountryDetails() {
 										<Skeleton
 											variant="text"
 											width={60}
-											sx={{ display: 'inline-block', fontSize: '0.875rem', marginLeft: '5px' }}
+											sx={{ display: 'inline-block', fontSize: '1rem', marginLeft: '5px' }}
 										/>
 									) : country.name?.nativeName ? (
 										country.name?.nativeName[Object.keys(country.name?.nativeName)[0]].common
@@ -98,7 +98,7 @@ export default function CountryDetails() {
 										<Skeleton
 											variant="text"
 											width={60}
-											sx={{ display: 'inline-block', fontSize: '0.875rem', marginLeft: '5px' }}
+											sx={{ display: 'inline-block', fontSize: '1.5rem', marginLeft: '5px' }}
 										/>
 									) : (
 										country.tld
