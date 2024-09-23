@@ -23,15 +23,15 @@ export default function CountryCard({ i, country }) {
 						<Typography gutterBottom variant="subtitle1" component="div" noWrap={true}>
 							<strong>{country.name.common}</strong>
 						</Typography>
-						<Typography variant="body2" color="text.secondary">
+						<Typography variant="body2" color="text.secondary" sx={{ fontSize: '1rem' }}>
 							<strong>Population: </strong>
 							{country.population}
 						</Typography>
-						<Typography variant="body2" color="text.secondary">
+						<Typography variant="body2" color="text.secondary" sx={{ fontSize: '1rem' }}>
 							<strong>Region: </strong>
 							{country.region}
 						</Typography>
-						<Typography variant="body2" color="text.secondary">
+						<Typography variant="body2" color="text.secondary" sx={{ fontSize: '1rem' }}>
 							<strong>Capital: </strong>
 							{country.capital}
 						</Typography>
